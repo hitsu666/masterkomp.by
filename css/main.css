@@ -1,0 +1,241 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "ProximaNovaBold", sans-serif;
+	font-size: 16px;
+}
+.header {
+	background-color: #0092BC;
+	color: #fff;
+	position: relative;
+}
+.header_topline {
+	height: 70px;
+}
+.worktime {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-top-left-radius: 18px;
+	border-bottom-left-radius: 18px;
+	max-width: 480px;
+	float: right;
+	height: 40px;
+	margin-top: 15px;
+	color: #fff;
+	text-shadow: rgba(0, 0, 0, .6) 1px 1px;
+	font-size: 12px;
+	padding-left: 30px;
+	padding-right: 5%;
+	z-index: 0;
+}
+.worktime div {
+	display: inline-block;
+	margin-left: 10px;
+}
+.header_mnu {
+	height: 80px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.logo {
+	font-family: "TahomaBold";
+	display: block;
+	font-size: 25px;
+	color: #fff;
+	text-shadow: rgba(0, 0, 0, .6) 2px 2px;
+	float: left;
+	padding-top: 20px;
+	letter-spacing: 1px;
+}
+.main_menu {
+	font-family: "TahomaRegular";
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.main_menu ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.main_menu ul li{
+	display: inline-block;
+}
+.main_menu a {
+	color: #fff;
+	margin-left: 100px;
+	display: block;
+	margin-top: 25px;
+	text-shadow: rgba(0, 0, 0, .6) 2px 2px;
+	margin-bottom: 10px;
+}
+.main_menu_button {
+	float: right;
+	color: #fff;
+	padding: 3px 10px 3px;
+	background-color: rgba(0, 0, 0, .0);
+	margin-top: 15px;
+	margin-bottom: 16px;
+	border: medium none;
+	font-size: 30px;
+}
+#top_banner {
+	min-height: 600px;
+}
+#top_banner h1 {
+	margin-top: 230px;
+	font-size: 51px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: rgba(0, 0, 0, .6) 3px 3px;
+	line-height: 65px;
+	letter-spacing: 2px;
+	margin-bottom: 8px;
+}
+.line {
+	height: 0px;
+	border: solid #fff 3px;
+	width: 90px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .6);
+}
+#top_banner h2 {
+	font-size: 25px;
+	color: #fff;
+	padding: 10px 10px;
+	text-shadow: rgba(0, 0, 0, .6) 2px 2px;
+	border: solid #fff 4px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .6),
+	inset 2px 2px 2px rgba(0, 0, 0, .6);
+	width: 330px;
+	text-align: center;
+	border-radius: 35px;
+	margin-top: 30px;
+}
+#top_banner img {
+	margin-top: 85px;
+	margin-right: 15px;
+}
+.baner_list {
+	font-family: "TahomaBold";
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.baner_list ul li {
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	text-shadow: rgba(0, 0, 0, .6) 2px 2px;
+}
+.topic {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #0071ba;
+}
+.topic h2 {
+	margin: 50px 0 70px 0;
+}
+.blog_item {
+	margin-bottom: 40px;
+}
+.blog_item h3 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #0071ba;
+	margin: 0;
+}
+.blog_item p {
+	margin-top: 0;
+	font-size: 20px;
+}
+.blog_item img {
+	margin-bottom: 20px;
+}
+#service {
+	padding-bottom: 70px;
+}
+.service_image {
+	margin-top: 70px;
+}
+#price {
+	padding-bottom: 100px;
+	background-color: #f8f8f8;
+}
+.price_item h3 {
+	font-family: "ProximaNova";
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #0071ba;
+	margin-bottom: 0;
+}
+.price_item h4 {
+	font-family: "ProximaNova";
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 12px;
+}
+.price_line {
+	height: 0;
+	width: 90%;
+	border: solid #d6ddeb 1px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.price_image {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.telephone .number p{
+	font-size: 45px;
+	margin: 0;
+	padding: 20px 0 20px 25px;
+}
+.adress h4 {
+	font-size: 25px;
+	margin: 0;
+	padding: 15px 0 20px 25px;
+	text-transform: uppercase;
+}
+#contacts {
+	margin-bottom: 70px;
+}
+#map {
+	height: 640px;
+	width: 100%;
+}
+.map {
+	height: 640px;
+	width: 100%;
+}
+#copyright {
+	height: 120px;
+	text-align: center;
+}
+.copyright h6 {
+	font-family: "ProximaNova";
+	font-size: 20px;
+}
